@@ -1,6 +1,7 @@
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
+import { BusLayer } from './BusLayer';
 
 const Map = () => {
   const pinIcon = new Icon({
@@ -19,6 +20,7 @@ const Map = () => {
       <Marker position={[60.45964, 22.279435]} icon={pinIcon}>
         <Popup>Vincit</Popup>
       </Marker>
+      <BusLayer />
     </MapContainer>
   );
 };
