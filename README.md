@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Awesome Vincit Föli Application
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) written with TypeScript.
+
+This application has only one page which displays a map of Turku using Leaflet and a live view of Föli busses. 
 
 ## Getting Started
 
-First, run the development server:
+First install the required node modules:
+```bash
+yarn
+```
+
+Then run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying the already created components in the `components` directory.
+The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tehtävä
 
-## Learn More
+Vincit on saanut asiakkaalta toimeksiannon toteuttaa Fölibussien seurantaäppiksen.
 
-To learn more about Next.js, take a look at the following resources:
+Ollaan päästy omillamme hieman alkuun, mutta nyt tarvitsemme riskeiltä vähän apua. Tällä hetkellä valmiina on simppeli React-äppi joka näyttää kaikki Fölibussit kartalla. Tämä on aika tylsä ja tästä pitäisi saada hienompi.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Muodostakaa 3-5 hengen tiimi ja suunnitelkaa kuinka applikaatiota saisi jatkokehitettyä niin, että se toisi mahdollisemman paljon arvoa ja iloa asiakkaalle, ja antakaa koodin lentää.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Asiakkaan salainen edustaja tulee arvioimaan ja palkitsemaan siisteimmän toteutuksen ja innovatiivisimman konseptin.
 
-## Deploy on Vercel
+Se, kuinka jatkokehitätte sovellusta on täysin päätettävissänne, tyyli vapaa.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Muutamia ideoita:
+- Bussipysäkit kartalle
+  - Klikattaessa näyttää mitkä bussit pysäkillä pysähtyy ja milloin
+- Lisätietoa busseista (klikattaessa?)
+  - numero
+  - päätepysäkki
+  - reitti kartalla
+- UI
+  - Coolimmat ikonit ja kartat
+  - Muuta?
+- **Teidän omat ideat**
