@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Icon } from 'leaflet';
-import { Marker, Popup } from 'react-leaflet';
+import { Marker } from 'react-leaflet';
 
 interface Bus {
   id: string;
