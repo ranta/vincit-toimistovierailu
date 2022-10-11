@@ -30,7 +30,7 @@ Vincit on saanut asiakkaalta toimeksiannon toteuttaa Fölibussien seurantaäppik
 
 Ollaan päästy omillamme hieman alkuun, mutta nyt tarvitsemme riskeiltä vähän apua. Tällä hetkellä valmiina on simppeli React-äppi joka näyttää kaikki Fölibussit kartalla. Tämä on aika tylsä ja tästä pitäisi saada hienompi.
 
-Muodostakaa 3-5 hengen tiimi ja suunnitelkaa kuinka applikaatiota saisi jatkokehitettyä niin, että se toisi mahdollisemman paljon arvoa ja iloa asiakkaalle, ja antakaa koodin lentää.
+Muodostakaa 3-4 hengen tiimi ja suunnitelkaa kuinka applikaatiota saisi jatkokehitettyä niin, että se toisi mahdollisemman paljon arvoa ja iloa asiakkaalle, ja antakaa koodin lentää.
 
 Asiakkaan salainen edustaja tulee arvioimaan ja palkitsemaan siisteimmän toteutuksen ja innovatiivisimman konseptin.
 
